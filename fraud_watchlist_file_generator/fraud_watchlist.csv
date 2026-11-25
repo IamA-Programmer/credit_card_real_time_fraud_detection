@@ -1,0 +1,16 @@
+watchlist_id,watchlist_type,entity_id,risk_level,action,reason_code,reason_description,status,effective_from,reported_by,reported_source,country,city
+wl000001,CARD,384293923900851E,high,ADD,PHISHING,Auto-generated fraud watchlist entry,ACTIVE,18-06-2026 09:00,SOC,Manual,India,Hyderabad
+wl000002,CARD,5618495931034130,medium,ADD,STOLEN_CARD,Reported stolen card,ACTIVE,18-06-2026 09:05,SOC,Manual,India,Chennai
+wl000003,ACCOUNT,AC987654321,high,ADD,ACCOUNT_TAKEOVER,Suspicious account takeover activity,ACTIVE,18-06-2026 09:10,SOC,Manual,India,Mumbai
+wl000004,CARD,50085238728353,critical,ADD,FRAUD,Confirmed fraudulent transaction,ACTIVE,18-06-2026 09:15,SOC,Manual,India,Delhi
+wl000005,UPI,UPI99887766,high,ADD,PHISHING,Phishing-related UPI activity,ACTIVE,18-06-2026 09:20,SOC,Manual,India,Bengaluru
+wl000006,CARD,5430391171822780,medium,REMOVE,FALSE_POSITIVE,Previously flagged entry cleared,INACTIVE,18-06-2026 09:25,SOC,Manual,India,Pune
+wl000007,ACCOUNT,AC123456789,high,ADD,MULE_ACCOUNT,Suspected mule account,ACTIVE,18-06-2026 09:30,SOC,Manual,India,Kolkata
+wl000008,CARD,5.00851E+15,critical,ADD,COMPROMISED_CARD,Card reported compromised,ACTIVE,18-06-2026 09:35,SOC,Manual,India,Ahmedabad
+wl000009,UPI,UPI11223344,medium,ADD,SUSPICIOUS_ACTIVITY,Multiple suspicious UPI transactions,ACTIVE,18-06-2026 09:40,SOC,Manual,India,Coimbatore
+wl000010,ACCOUNT,AC555666777,high,ADD,IDENTITY_FRAUD,Suspected identity fraud,ACTIVE,18-06-2026 09:45,SOC,Manual,India,Hyderabad
+wl000011,CARD,4.33096E+14,high,ADD,SUSPICIOUS_ACTIVITY,Multiple suspicious transactions detected,ACTIVE,12-09-2026 00:55,SOC,Manual,India,Chennai
+wl000012,CARD,4.73241E+15,critical,ADD,FRAUD,Card associated with suspected fraudulent activity,ACTIVE,12-09-2026 01:00,SOC,Manual,India,Mumbai
+wl000013,CARD,4.90237E+15,high,ADD,PHISHING,Card reported in a phishing-related transaction,ACTIVE,12-09-2026 01:05,SOC,Manual,India,Hyderabad
+wl000014,CARD,5.47629E+15,medium,ADD,STOLEN_CARD,Card reported as potentially compromised,ACTIVE,12-09-2026 01:10,SOC,Manual,India,Bengaluru
+wl000015,CARD,5.6124E+15,high,ADD,COMPROMISED_CARD,Unusual transaction pattern detected,ACTIVE,12-09-2026 01:15,SOC,Manual,India,Pune
