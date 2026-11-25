@@ -5,15 +5,21 @@ include:
   - resources/*.yml
 
 targets:
-
-  dev:
-    mode: development
+  default:
     default: true
     workspace:
       host: https://dbc-98a39b50-ba50.cloud.databricks.com/browse/folders/719938390924734?o=7474652339439882
-
-  prod:
-    mode: production
-    workspace:
-      host: https://dbc-98a39b50-ba50.cloud.databricks.com/browse/folders/719938390924734?o=7474652339439882
       root_path: /Workspace/Shared/.bundle/${bundle.name}/${bundle.target}
+
+# use this when we use development and production env to run seperatly
+  # dev:
+  #   mode: development
+  #   default: true
+  #   workspace:
+  #     host: https://dbc-98a39b50-ba50.cloud.databricks.com/browse/folders/719938390924734?o=7474652339439882
+
+  # prod:
+  #   mode: production
+  #   workspace:
+  #     host: https://dbc-98a39b50-ba50.cloud.databricks.com/browse/folders/719938390924734?o=7474652339439882
+  #     root_path: /Workspace/Shared/.bundle/${bundle.name}/${bundle.target}
