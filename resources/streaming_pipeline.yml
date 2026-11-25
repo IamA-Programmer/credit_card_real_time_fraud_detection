@@ -1,0 +1,17 @@
+resources:
+  pipelines:
+    finguard_streaming:
+      name: finguard_streaming_${bundle.target}
+      serverless: true
+      libraries:
+        - glob:
+            include: ../finguard_streaming/bronze/**
+
+        - glob:
+            include: ../finguard_streaming/silver/**
+
+        - glob:
+            include: ../finguard_streaming/gold/**
+
+        - glob:
+            include: ../finguard_streaming/alerts/**

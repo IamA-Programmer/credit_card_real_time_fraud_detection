@@ -1,0 +1,19 @@
+bundle:
+  name: credit_card_real_time_fraud_detection
+
+include:
+  - resources/*.yml
+
+targets:
+
+  dev:
+    mode: development
+    default: true
+    workspace:
+      host: https://dbc-98a39b50-ba50.cloud.databricks.com/browse/folders/719938390924734?o=7474652339439882
+
+  prod:
+    mode: production
+    workspace:
+      host: https://dbc-98a39b50-ba50.cloud.databricks.com/browse/folders/719938390924734?o=7474652339439882
+      root_path: /Workspace/Shared/.bundle/${bundle.name}/${bundle.target}

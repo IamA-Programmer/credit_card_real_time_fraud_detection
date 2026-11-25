@@ -1,0 +1,9 @@
+resources:
+  jobs:
+    fraud_watchlist_generator_job:
+      name: fraud_watchlist_generator_${bundle.target}
+      tasks:
+        - task_key: generate_fraud_watchlist
+
+          notebook_task:
+            notebook_path: ../fraud_watchlist_file_generator/fraud_watchlist_data_generator

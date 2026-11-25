@@ -1,0 +1,8 @@
+resources:
+  jobs:
+    customer_silver_job:
+      name: customer_silver_load_${bundle.target}
+      tasks:
+        - task_key: customer_silver_load
+          notebook_task:
+            notebook_path: ../finguard_customers_silver_load/silver/customer_silver.py
